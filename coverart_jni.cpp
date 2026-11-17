@@ -56,7 +56,7 @@ extern "C" {
  * All text is stored as UTF-8 (supports Hebrew, Arabic, and all Unicode).
  */
 JNIEXPORT jboolean JNICALL
-Java_com_muzzlist_music_utils_CoverArtNative_embedMetadata(
+Java_com_muzikgroup_music_utils_CoverArtNative_embedMetadata(
         JNIEnv *env,
         jclass clazz,
         jstring inputPath,
@@ -300,7 +300,7 @@ Java_com_muzzlist_music_utils_CoverArtNative_embedMetadata(
  * This is needed because DASH files use moof/mdat structure instead of moov/mdat.
  */
 JNIEXPORT jboolean JNICALL
-Java_com_muzzlist_music_utils_CoverArtNative_defragmentFile(
+Java_com_muzikgroup_music_utils_CoverArtNative_defragmentFile(
         JNIEnv *env,
         jclass clazz,
         jstring inputPath,

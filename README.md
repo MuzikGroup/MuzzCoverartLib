@@ -16,7 +16,7 @@ Native library for M4A metadata embedding using Bento4.
 ### As Git Submodule
 
 ```bash
-git submodule add https://github.com/MuzikGroup/muzik-coverart-lib.git libs/coverart
+git submodule add https://github.com/MuzikGroup/MuzzCoverartLib.git libs/coverart
 ```
 
 ### In your CMakeLists.txt
